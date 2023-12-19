@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poetry-8-18-"
+version = "0.1.0"
+description = ""
+authors = ["Polina Vishnyakova <vishnyakovapv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selene = "2.0.0.rc4"
+pytest = "7.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
